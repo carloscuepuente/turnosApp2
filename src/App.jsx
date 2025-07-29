@@ -11,6 +11,7 @@ function App() {
     setCurrentView(view);
   };
 
+  // aquí voy a renderizar el componente según corresponda
   const renderCurrentView = () => {
     switch (currentView) {
       case "dashboard":
